@@ -1,0 +1,30 @@
+state={
+	id=970
+	name="STATE_970"
+	manpower = 462400
+	
+	state_category = city
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3 #was: 5
+			
+		}
+		victory_points = {
+			6474 10
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	resources={
+		steel=1
+	}
+
+	provinces={
+		3421 6474 6493 
+	}
+
+	local_supplies=10.0 
+}
