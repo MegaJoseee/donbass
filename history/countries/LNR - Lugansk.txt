@@ -24,7 +24,7 @@ set_research_slots = 3
 set_popularities = {
 	democratic = 1
 	fascism = 20
-	communism = 69
+	communism = 59
 	neutrality = 20
 	
 }
@@ -38,6 +38,12 @@ create_country_leader = {
 	name = "Леонид Пасечник"
 	picture = x
 	ideology = oligarchism
+}
+
+create_country_leader = {
+	name = "Леонид Пасечник"
+	picture = x
+	ideology = marxism
 }
 
 create_country_leader = {
