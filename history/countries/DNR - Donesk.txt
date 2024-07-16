@@ -26,24 +26,23 @@ set_popularities = {
 	fascism = 20
 	communism = 20
 }
-
+set_politics = {
+	ruling_party = 
+}
 create_country_leader = {
 	name = "Денис Пушилин"
 	picture = x
 	ideology = conservatism
-	elections_allowed = no
 }
 
 create_country_leader = {
 	name = "Игорь Гиркин"
 	picture = x
 	ideology = fascism_ideology
-	elections_allowed = no
 }
 
 create_country_leader = {
 	name = "Станислав Александрович" #Стас ай как просто
 	picture = x
 	ideology = marxism
-	elections_allowed = no
 }

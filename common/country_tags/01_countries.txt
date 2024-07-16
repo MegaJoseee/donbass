@@ -1,0 +1,2 @@
+DNR = "countries/Donesk.txt"
+LNR = "countries/Lugansk.txt"
