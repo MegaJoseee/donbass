@@ -34,7 +34,7 @@ set_politics = {
 create_country_leader = {
 	name = "Денис Пушилин"
 	picture = x
-	ideology = conservatism
+	ideology = moderatism
 }
 
 create_country_leader = {
