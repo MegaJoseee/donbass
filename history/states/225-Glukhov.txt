@@ -1,15 +1,19 @@
+
 state={
-	id=971
-	name="STATE_971" # Луганск
-	manpower = 211682
+	id=225
+	name="STATE_225" # Sumy
+	manpower = 1338280
 	
 	state_category = town
 
 	history={
-		owner = LNR
 		victory_points = {
-			9461 5
+			3520 3
 		}
+		victory_points = {
+			9566 1
+		}
+		owner = UKR
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
@@ -18,7 +22,7 @@ state={
 	}
 
 	provinces={
-		6505 9446 9461
+		463 501 522 3225 3455 3520 6565 9477 9566 11462 11553 
 	}
 
 	local_supplies=0.0 

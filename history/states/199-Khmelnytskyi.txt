@@ -1,25 +1,28 @@
+
 state={
-	id=971
-	name="STATE_971" # Луганск
-	manpower = 211682
+	id=199
+	name="STATE_199"
+	manpower = 1424022
 	
 	state_category = town
 
 	history={
-		owner = LNR
 		victory_points = {
-			9461 5
+			3457 3
 		}
+		owner = UKR
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 3
 		}
 		add_core_of = SOV
 		add_core_of = UKR
 	}
 
 	provinces={
-		6505 9446 9461
+		462 3430 3457 3511 6429 6509 
 	}
 
-	local_supplies=0.0 
+	local_supplies=4.0 
 }
