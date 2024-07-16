@@ -25,9 +25,11 @@ set_popularities = {
 	democratic = 14
 	fascism = 20
 	communism = 20
+	neutrality = 46
 }
 set_politics = {
-	ruling_party = 
+	ruling_party = neutrality
+	elections_allowed = no
 }
 create_country_leader = {
 	name = "Денис Пушилин"
