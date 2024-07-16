@@ -25,18 +25,23 @@ set_popularities = {
 	democratic = 14
 	fascism = 40
 	communism = 20
+	neutrality = 26
+	
+}
+
+set_politics = {
+	elections_allowed = no
+	ruling_party = neutrality
 }
 
 create_country_leader = {
 	name = "Леонид Пасечник"
 	picture = x
 	ideology = conservatism
-	elections_allowed = no
 }
 
 create_country_leader = {
 	name = "Игорь Гиркин"
 	picture = x
 	ideology = fascism_ideology
-	elections_allowed = no
 }
