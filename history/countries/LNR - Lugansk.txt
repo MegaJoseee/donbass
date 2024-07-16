@@ -22,22 +22,22 @@ set_technology = {
 set_research_slots = 3
 
 set_popularities = {
-	democratic = 14
-	fascism = 40
-	communism = 20
-	neutrality = 26
+	democratic = 1
+	fascism = 20
+	communism = 69
+	neutrality = 20
 	
 }
 
 set_politics = {
 	elections_allowed = no
-	ruling_party = neutrality
+	ruling_party = communism
 }
 
 create_country_leader = {
 	name = "Леонид Пасечник"
 	picture = x
-	ideology = conservatism
+	ideology = oligarchism
 }
 
 create_country_leader = {
