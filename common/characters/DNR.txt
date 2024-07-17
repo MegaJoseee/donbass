@@ -1,0 +1,70 @@
+character = {
+	DNR_Pushilin ={
+		name = DNR_Pushilin
+		portraits = {
+			civilian = {
+				large = GFX_Denis_Pushilin
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			id = -1
+			traits = {
+				
+			}
+		}
+	}
+}
+character = {
+	DNR_Zalupin ={
+		name = GFX_Zalupin
+		portraits = {
+			civilian = {
+				small = GFX_Zalupin
+			}
+		}
+	}
+}
+character = {
+	DNR_Strelkov_leader ={
+		name = DNR_Strelkov_leader
+		portraits = {
+			civilian = {
+				large = GFX_Strelkov_leader
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}
+character = {
+	DNR_Strelkov_general ={
+		name = DNR_Strelkov_general
+		portraits = {
+			civilian = {
+				large =  GFX_Strelkov_general
+			}
+		}
+	}
+}
+character = {
+	DNR_baba_Godalka ={
+		name = DNR_baba_Godalka
+		portraits = {
+			civilian = {
+				large =  GFX_baba_Godalka
+			}
+		}
+	}
+}
+character = {
+	DNR_Penis_Dushilin ={
+		name = DNR_Penis_Dushilin
+		portraits = {
+			civilian = {
+				large =  GFX_Penis_Dushilin
+			}
+		}
+	}
+}

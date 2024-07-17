@@ -33,18 +33,34 @@ set_politics = {
 }
 create_country_leader = {
 	name = "Денис Пушилин"
-	picture = x
+	picture = GFX_Denis_Pushilin
 	ideology = marxism
+}
+
+if = {
+    limit = {
+        NOT = { country_leader = { name = "Игорь Гиркин" } }
+    }
+    create_corps_commander = {
+        name = "Игорь Гиркин"
+        picture = "GFX_Strelkov_general"
+        skill = 3
+        attack_skill = 2
+        defense_skill = 3
+        planning_skill = 2
+        logistics_skill = 5
+        traits = { }
+    }
 }
 
 create_country_leader = {
 	name = "Игорь Гиркин"
-	picture = x
+	picture = GFX_Strelkov_leader
 	ideology = fascism_ideology
 }
 
 create_country_leader = {
-	name = "Пенис Душилин" #Стас ай как просто
-	picture = x
+	name = "Пенис Душилин" 
+	picture = GFX_Penis_Dushilin
 	ideology = moderatism
 }

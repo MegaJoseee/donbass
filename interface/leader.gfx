@@ -1,0 +1,47 @@
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_Denis_Pushilin"
+		texturefile = "gfx/leaders/DNR/Portrait_DNR_Denis_pushilin1.dds"
+	}
+}
+
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_Strelkov_leader"
+		texturefile = "gfx/leaders/DNR/Portrait_DNR_Strelkov2.dds"
+	}
+}
+
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_Penis_Dushilin"
+		texturefile = "gfx/leaders/DNR/Portrait_DNR_Penis_Dushilin.dds"
+	}
+}
+
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_Strelkov_general"
+		texturefile = "gfx/leaders/DNR/Portrait_DNR_Strelkov.dds"
+	}
+}
+
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_baba_Godalka"
+		texturefile = "gfx/leaders/DNR/Portrait_DNR_baba_Godalka.dds"
+	}
+}
+
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_Zalupin"
+		texturefile = "gfx/leaders/DNR/Portrait_DNR_Zalupin.dds"
+	}
+}
