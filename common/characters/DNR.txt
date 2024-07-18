@@ -10,7 +10,7 @@ character = {
 			ideology = marxism
 			id = -1
 			traits = {
-				
+				anti_democrat vseh_na_voiny
 			}
 		}
 	}
@@ -35,6 +35,10 @@ character = {
 		}
 		country_leader = {
 			ideology = fascism_ideology
+			id = -1
+			traits = {
+				mobilizator anti_democrat vseh_na_voiny
+			}
 		}
 	}
 }
@@ -46,6 +50,17 @@ character = {
 				large =  GFX_Strelkov_general
 			}
 		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+			id = -1
+			traits = {
+				politically_connected war_hero militias_officer
+			}
+		}
 	}
 }
 character = {
@@ -53,7 +68,7 @@ character = {
 		name = DNR_baba_Godalka
 		portraits = {
 			civilian = {
-				large =  GFX_baba_Godalka
+				small =  GFX_baba_Godalka
 			}
 		}
 	}
@@ -64,6 +79,12 @@ character = {
 		portraits = {
 			civilian = {
 				large =  GFX_Penis_Dushilin
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				anti_democrat
 			}
 		}
 	}

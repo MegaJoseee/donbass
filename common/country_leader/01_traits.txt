@@ -1,0 +1,11 @@
+leader_traits = {
+	mobilizator = {
+		random = no
+		war_support_factor = 0.20
+		non_core_manpower = 0.08
+	}
+	vseh_na_voiny ={
+		random = no
+		army_speed_factor = 0.010
+	}
+}
