@@ -1,11 +1,30 @@
 ideas = {
 	country = {
-		DNR_hohli_pidori ={
-			picture = dnr_hohli_pidori.dds
+		DNR_hohli_pidori = {
+			allowed = {
+				original_tag = DNR
+			}
+			picture = dnr_hohli_pidori
 			modifier = {
 				attack_bonus_against = 0.1
 				mobilization_speed = 0.1
 			}
 		}
 	}
-}
+	political_advisor = {
+			Babka_godalka ={
+				name = Babka_Godalka
+				picture = idea_babka_godalka
+				allowed = {
+					original_tag = DNR
+				}
+				available = {
+					has_political_power = 200
+				}
+				modifier = {
+					boost_ideology_mission_factor = 400
+					weekly_manpower = 500
+				}
+		}
+	}
+}	

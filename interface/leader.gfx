@@ -28,20 +28,4 @@ spriteTypes = {
 		name = "GFX_Strelkov_general"
 		texturefile = "gfx/leaders/DNR/Portrait_DNR_Strelkov.dds"
 	}
-}
-
-spriteTypes = {	
-    				
-	spriteType = {
-		name = "GFX_baba_Godalka"
-		texturefile = "gfx/leaders/DNR/Portrait_DNR_baba_Godalka.dds"
-	}
-}
-
-spriteTypes = {	
-    				
-	spriteType = {
-		name = "GFX_Zalupin"
-		texturefile = "gfx/leaders/DNR/Portrait_DNR_Zalupin.dds"
-	}
-}
+}	

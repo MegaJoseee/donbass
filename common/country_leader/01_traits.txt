@@ -6,6 +6,6 @@ leader_traits = {
 	}
 	vseh_na_voiny ={
 		random = no
-		army_speed_factor = 0.010
+		mobilization_speed = 0.5
 	}
 }

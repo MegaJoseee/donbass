@@ -33,21 +33,3 @@ set_politics = {
 	elections_allowed = no
 	ruling_party = communism
 }
-
-create_country_leader = {
-	name = "Леонид Пасечник"
-	picture = x
-	ideology = oligarchism
-}
-
-create_country_leader = {
-	name = "Леонид Пасечник"
-	picture = x
-	ideology = marxism
-}
-
-create_country_leader = {
-	name = "Игорь Гиркин"
-	picture = x
-	ideology = fascism_ideology
-}
