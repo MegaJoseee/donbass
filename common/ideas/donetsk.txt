@@ -1,9 +1,6 @@
 ideas = {
 	country = {
 		DNR_hohli_pidori = {
-			allowed = {
-				original_tag = DNR
-			}
 			picture = dnr_hohli_pidori
 			modifier = {
 				attack_bonus_against = 0.1
@@ -13,7 +10,6 @@ ideas = {
 	}
 	political_advisor = {
 			Babka_godalka ={
-				name = Babka_Godalka
 				picture = idea_babka_godalka
 				allowed = {
 					original_tag = DNR

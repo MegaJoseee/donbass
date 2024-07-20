@@ -33,17 +33,17 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "DNR_Pushilin"
-	desc = "Денис пушилин был тем кто востал против зелебобы и победил!"
-	picture = "GFX_Denis_Pushilin"
+	name = "Denis_Pushilin"
+	desc = "niger"
+	picture = "Portrait_DNR_Denis_pushilin1.dds"
 	ideology = marxism
 	id = 10000
 	traits = { anti_democrat vseh_na_voiny }
 }
 
 create_country_leader = {
-	name = "Strelkov Leader"
-	picture = "GFX_Strelkov_leader"
+	name = "Strelkov"
+	picture = "Portrait_DNR_Strelkov2.dds"
 	ideology = fascism_ideology
 	id = 10001
 	traits = { mobilizator anti_democrat vseh_na_voiny }
@@ -51,7 +51,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Strelkov"
-	picture = "GFX_Strelkov_general"
+	picture = "Portrait_DNR_Strelkov.dds"
 	skill = 4
 	attack_skill = 3
 	defense_skill = 2
@@ -63,7 +63,7 @@ create_corps_commander = {
 
 create_country_leader = {
 	name = "DNR_Penis_Dushilin"
-	picture = "GFX_Penis_Dushilin"
+	picture = "Portrait_DNR_Penis_Dushilin.dds"
 	ideology = conservatism
 	id = 10003
 	traits ={ anti_democrat }
