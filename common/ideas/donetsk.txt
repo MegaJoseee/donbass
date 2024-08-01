@@ -1,10 +1,30 @@
 ideas = {
 	country = {
-		DNR_hohli_pidori = {
-			picture = dnr_hohli_pidori
+		DNR_anti_ukrain = {
+			
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = idea_ast_abandon_the_westminster_system_communism
 			modifier = {
 				attack_bonus_against = 0.1
 				mobilization_speed = 0.1
+				war_support_factor = 0.2
+			}
+		}
+		DNR_tupoe_nasilenie = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				set_research_slots = 1
 			}
 		}
 	}
@@ -14,13 +34,10 @@ ideas = {
 				allowed = {
 					original_tag = DNR
 				}
-				available = {
-					has_political_power = 200
+				traits = {
+					zavoz_sigan lubit_dengi sigan
 				}
-				modifier = {
-					boost_ideology_mission_factor = 400
-					weekly_manpower = 500
-				}
+
 		}
 	}
 }	

@@ -8,14 +8,16 @@ state={
 	history={
 		owner = DNR
 		buildings = {
-			infrastructure = 3 #was: 5
-			
+			infrastructure = 4 #was: 5
+			arms_factory = 2
+			industrial_complex = 3
 		}
 		victory_points = {
-			6474 10
+			6474 13
 		}
 		add_core_of = SOV
 		add_core_of = UKR
+		add_core_of = DNR
 	}
 
 	resources={

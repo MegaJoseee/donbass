@@ -1,0 +1,433 @@
+focus_tree = {
+	id = DNR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DNR
+		}
+	}
+	default = no
+	focus = {
+		id = friend_dnr_lnr
+		text = friend_dnr_lnr
+		icon = GFX_goal_tripartite_pact
+		cost = 10,00
+		x = 34
+		y = 0
+
+	}
+	focus = {
+		id = vostanovlinie_posle_voini
+		text = vostanovlinie_posle_voini
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = friend_dnr_lnr
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = otkopat_shahti
+		text = otkopat_shahti
+		icon = GFX_focus_generic_land_reclamation
+		cost = 10,00
+		prerequisite = {
+			focus = friend_dnr_lnr
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = kurs
+		text = kurs
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = vostanovlinie_posle_voini
+		}
+		prerequisite = {
+			focus = otkopat_shahti
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = bunt_strelkova
+		text = bunt_strelkova
+		icon = GFX_Strelkov
+		cost = 10,00
+		prerequisite = {
+			focus = kurs
+		}
+		mutually_exclusive = {
+			focus = sohranenia_kursa
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = sohranenia_kursa
+		text = sohranenia_kursa
+		icon = GFX_Pushilin
+		cost = 10,00
+		prerequisite = {
+			focus = kurs
+		}
+		mutually_exclusive = {
+			focus = bunt_strelkova
+			focus = novaia_strana
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = poklonenie_pushilinu
+		icon = GFX_focus_generic_workers
+		cost = 10,00
+		prerequisite = {
+			focus = sohranenia_kursa
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = pofgotovka_dlia_nahruka
+		icon = GFX_focus_SWE_defense_act
+		cost = 10,00
+		prerequisite = {
+			focus = postroit_voenniezavodi
+		}
+		prerequisite = {
+			focus = massova_mobilizasia
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = pomosh_ot_russia
+		icon = GFX_pomosh_russia
+		cost = 10,00
+		prerequisite = {
+			focus = pofgotovka_dlia_nahruka
+		}
+		mutually_exclusive = {
+			focus = Samiposebe
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = novaia_strana
+		text = novaia_strana
+		icon = GFX_new_country
+		cost = 10,00
+		prerequisite = {
+			focus = kurs
+		}
+		mutually_exclusive = {
+			focus = sohranenia_kursa
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = podgoovit_bunt
+		text = podgoovit_bunt
+		icon = GFX_Perevorot
+		cost = 10,00
+		prerequisite = {
+			focus = bunt_strelkova
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = strelkovshina
+		text = strelkovshina
+		icon = GFX_strelkovshina
+		cost = 10,00
+		prerequisite = {
+			focus = kaznit_pushilina
+			focus = Orestovati_pushilina
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = kaznit_pushilina
+		text = kaznit_pushilina
+		icon = GFX_kaznit_pushilina
+		cost = 10,00
+		prerequisite = {
+			focus = podgoovit_bunt
+		}
+		mutually_exclusive = {
+			focus = Orestovati_pushilina
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = Orestovati_pushilina
+		text = Orestovati_pushilina
+		icon = GFX_arest_pushilina
+		cost = 10,00
+		prerequisite = {
+			focus = podgoovit_bunt
+		}
+		mutually_exclusive = {
+			focus = kaznit_pushilina
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = prodolshit_orbu
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		cost = 10,00
+		prerequisite = {
+			focus = strelkovshina
+		}
+		mutually_exclusive = {
+			focus = save_paece
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = save_paece
+		icon = GFX_pleace
+		cost = 10,00
+		prerequisite = {
+			focus = strelkovshina
+		}
+		mutually_exclusive = {
+			focus = prodolshit_orbu
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = massova_mobilizasia
+		icon = GFX_focus_BRA_anaue
+		cost = 10,00
+		prerequisite = {
+			focus = prodolshit_orbu
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = postroit_voenniezavodi
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = prodolshit_orbu
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = Samiposebe
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 10,00
+		prerequisite = {
+			focus = pofgotovka_dlia_nahruka
+		}
+		mutually_exclusive = {
+			focus = pomosh_ot_russia
+		}
+		x = 9
+		y = 13
+
+	}
+	focus = {
+		id = potrebovat_donesku
+		icon = GFX_focus_ETH_protector_of_the_somalis
+		cost = 10,00
+		prerequisite = {
+			focus = Samiposebe
+		}
+		x = 9
+		y = 15
+
+	}
+	focus = {
+		id = pohrukat_na_ukrainu
+		icon = GFX_focus_cze_german_puppet
+		cost = 10,00
+		prerequisite = {
+			focus = Samiposebe
+		}
+		x = 6
+		y = 15
+
+	}
+	focus = {
+		id = HNR
+		icon = GFX_focus_AST_squander_bug
+		cost = 10,00
+		prerequisite = {
+			focus = Samiposebe
+		}
+		x = 12
+		y = 15
+
+	}
+	focus = {
+		id = velikistrelkov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = voina_s_ukrami
+		}
+		x = 9
+		y = 19
+
+	}
+	focus = {
+		id = voina_s_ukrami
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pohrukat_na_ukrainu
+		}
+		prerequisite = {
+			focus = potrebovat_donesku
+		}
+		prerequisite = {
+			focus = HNR
+		}
+		x = 9
+		y = 17
+
+	}
+	focus = {
+		id = russkie_dobrovolsi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = pomosh_ot_russia
+		}
+		x = 18
+		y = 15
+
+	}
+	focus = {
+		id = poprosit_bolshe_ludei
+		icon = GFX_focus_usa_honor_the_confederacy
+		cost = 10,00
+		prerequisite = {
+			focus = pomosh_ot_russia
+		}
+		x = 15
+		y = 15
+
+	}
+	focus = {
+		id = investisii_ot_russkih
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = pomosh_ot_russia
+		}
+		x = 21
+		y = 15
+
+	}
+	focus = {
+		id = predati_russkih
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		cost = 10,00
+		prerequisite = {
+			focus = voina_s_ukrami
+		}
+		prerequisite = {
+			focus = poprosit_bolshe_ludei
+		}
+		prerequisite = {
+			focus = russkie_dobrovolsi
+		}
+		prerequisite = {
+			focus = investisii_ot_russkih
+		}
+		mutually_exclusive = {
+			focus = pokoritsa_russkim
+		}
+		x = 15
+		y = 18
+
+	}
+	focus = {
+		id = pokoritsa_russkim
+		icon = GFX_focus_cze_german_puppet
+		cost = 10,00
+		prerequisite = {
+			focus = investisii_ot_russkih
+		}
+		prerequisite = {
+			focus = russkie_dobrovolsi
+		}
+		prerequisite = {
+			focus = poprosit_bolshe_ludei
+		}
+		mutually_exclusive = {
+			focus = predati_russkih
+		}
+		x = 21
+		y = 18
+
+	}
+	focus = {
+		id = voina_s_russkimi
+		icon = GFX_focus_SWE_the_beast_stirs
+		cost = 10,00
+		prerequisite = {
+			focus = predati_russkih
+		}
+		x = 15
+		y = 19
+
+	}
+	focus = {
+		id = svo_na_lnr
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = potrebovat_donesku
+		}
+		x = 5
+		y = 17
+
+	}
+	focus = {
+		id = poplakat
+		icon = GFX_focus_BRA_pedro_de_alcantara
+		cost = 10,00
+		prerequisite = {
+			focus = save_paece
+		}
+		x = 24
+		y = 11
+
+	}
+}

@@ -19,6 +19,10 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+add_ideas = {
+	DNR_anti_ukrain
+}
+
 set_research_slots = 3
 
 set_popularities = {
@@ -49,9 +53,20 @@ create_country_leader = {
 	traits = { mobilizator anti_democrat vseh_na_voiny }
 }
 
+create_field_marshal = {
+	name = "Denis_Pushilin2"
+	picture = "Portrait_DNR_Denis_pushilin1.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+	traits = { infantry_officer }
+}
+
 create_corps_commander = {
-	name = "Strelkov"
-	picture = "Portrait_DNR_Strelkov.dds"
+	name = "Strelkov2"
+	picture = "Portrait_DNR_Strelkov_general.dds"
 	skill = 4
 	attack_skill = 3
 	defense_skill = 2
@@ -62,12 +77,13 @@ create_corps_commander = {
 }
 
 create_country_leader = {
-	name = "DNR_Penis_Dushilin"
+	name = "Penis_Dushilin"
 	picture = "Portrait_DNR_Penis_Dushilin.dds"
-	ideology = conservatism
+	ideology = oligarchism
 	id = 10003
 	traits ={ anti_democrat }
 }
+
 # character = {
 # 	DNR_Zalupin ={
 # 		name = GFX_Zalupin

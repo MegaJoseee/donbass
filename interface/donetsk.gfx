@@ -1,0 +1,47 @@
+spriteTypes={
+	spriteType = {
+		name = "GFX_Sovok_likvidator"
+		textureFile = "gfx/interface/goals/focus_AST_squandr_bug.dds"
+	}
+	spriteType = {
+		name = "GFX_Pushilin"
+		textureFile = "gfx/interface/goals/focus_DNR_Pushilin.dds"
+	}
+	spriteType = {
+		name = "GFX_Strelkov"
+		textureFile = "gfx/interface/goals/focus_DNR_strelkov.dds"
+	}
+	spriteType = {
+		name = "GFX_Perevorot"
+		textureFile = "gfx/interface/goals/focus_DNR_perevorot.dds"
+	}
+	spriteType = {
+		name = "GFX_kaznit_pushilina"
+		textureFile = "gfx/interface/goals/focus_DNR_KAZNIT.dds"
+	}
+	spriteType = {
+		name = "GFX_arest_strelkova"
+		textureFile = "gfx/interface/goals/focus_DNR_arest_strelkova.dds"
+	}
+	spriteType = {
+		name = "GFX_arest_pushilina"
+		textureFile = "gfx/interface/goals/focus_DNR_arest_pushilina.dds"
+	}
+	spriteType = {
+		name = "GFX_strelkovshina"
+		textureFile = "gfx/interface/goals/focus_DNR_strelkovshina.dds"
+	}
+	spriteType = {
+		name = "GFX_new_country"
+		textureFile = "gfx/interface/goals/focus_new_country.dds"
+	}
+	spriteType = {
+		name = "GFX_pleace"
+		textureFile = "gfx/interface/goals/focus_DNR_pleace.dds"
+	}
+	spriteType = {
+		name = "GFX_pomosh_russia"
+		textureFile = "gfx/interface/goals/focus_chi_mission_to_the_soviet_union.dds"
+	}
+
+}
