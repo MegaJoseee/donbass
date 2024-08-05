@@ -8,7 +8,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = GFX_anti_ukr
+			picture = "GFX_anti_ukr"
 			modifier = {
 				attack_bonus_against = 0.1
 				mobilization_speed = 0.1
