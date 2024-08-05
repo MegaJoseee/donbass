@@ -43,5 +43,9 @@ spriteTypes={
 		name = "GFX_pomosh_russia"
 		textureFile = "gfx/interface/goals/focus_chi_mission_to_the_soviet_union.dds"
 	}
+	spriteType = {
+		name = "GFX_anti_ukr"
+		textureFile = "gfx/interface/ideas/idea_DNR_anti_ukr.dds"
+	}
 
 }

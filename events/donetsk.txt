@@ -1,0 +1,8 @@
+add_namespace = NewDonesk
+
+country_event = {
+	id = NewDonesk
+	title = donetsk
+	desc = donetsk
+	picture = 
+}
