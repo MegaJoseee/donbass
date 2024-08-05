@@ -359,16 +359,13 @@ focus_tree = {
 		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		cost = 10,00
 		prerequisite = {
-			focus = voina_s_ukrami
-		}
-		prerequisite = {
 			focus = poprosit_bolshe_ludei
 		}
 		prerequisite = {
 			focus = russkie_dobrovolsi
-		}
-		prerequisite = {
-			focus = investisii_ot_russkih
+			focus = HNR
+			focus = potrebovat_donesku
+			focus = pohrukat_na_ukrainu
 		}
 		mutually_exclusive = {
 			focus = pokoritsa_russkim
