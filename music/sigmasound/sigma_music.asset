@@ -1,0 +1,5 @@
+music = {
+	name = "Gangsta"
+	file = "Gangsta-Broccoli-Full.ogg"
+	volume = 1.4
+}

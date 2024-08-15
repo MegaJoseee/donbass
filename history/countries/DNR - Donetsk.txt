@@ -21,6 +21,7 @@ set_technology = {
 
 add_ideas = {
 	DNR_anti_ukrain
+	DNR_tupoe_nasilenie
 }
 
 set_research_slots = 3
