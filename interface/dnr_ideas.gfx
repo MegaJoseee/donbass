@@ -1,7 +1,7 @@
 spriteTypes ={
 
 	spriteType = {
-		name = "GFX_anti_ukr"
+		name = "GFX_idea_anti_ukr"
 		textureFile = "gfx/interface/ideas/idea_DNR_anti_ukr.dds"
 	}
 

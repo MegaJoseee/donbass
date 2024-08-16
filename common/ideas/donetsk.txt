@@ -2,13 +2,13 @@ ideas = {
 	country = {
 		DNR_anti_ukrain = {
 			
-			# allowed = {
-			# 	always = yes
-			# }
-			# allowed_civil_war = {
-			# 	always = yes
-			# }
-			picture = GFX_anti_ukr
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_idea_anti_ukr
 			modifier = {
 				attack_bonus_against = 0.1
 				mobilization_speed = 0.1
