@@ -24,7 +24,8 @@ add_ideas = {
 	DNR_tupoe_nasilenie
 }
 
-set_research_slots = 3
+recruit_character = DNR_babka_godalka
+recruit_character = DNR_Zalupin
 
 set_popularities = {
 	democratic = 0
@@ -57,6 +58,7 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Denis_Pushilin2"
 	picture = "Portrait_DNR_Denis_pushilin1.dds"
+	id = 10004
 	skill = 1
 	attack_skill = 1
 	defense_skill = 2
@@ -84,25 +86,3 @@ create_country_leader = {
 	id = 10003
 	traits ={ anti_democrat }
 }
-
-# character = {
-# 	DNR_Zalupin ={
-# 		name = GFX_Zalupin
-# 		portraits = {
-# 			civilian = {
-# 				small = GFX_Zalupin
-# 			}
-# 		}
-# 	}
-# }
-
-# character = {
-# 	DNR_baba_Godalka ={
-# 		name = DNR_baba_Godalka
-# 		portraits = {
-# 			civilian = {
-# 				small =  GFX_baba_Godalka
-# 			}
-# 		}
-# 	}
-# }

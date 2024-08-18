@@ -7,7 +7,18 @@ spriteTypes ={
 
 	spriteType = {
 		name = "GFX_babka_godalka"
-		textureFile = "gfx/interface/ideas/idea_asia_generic_3.dds"
+		textureFile = "gfx/interface/ideas/idea_DNR_babka_godalka_3.dds"
 	}
+
+	spriteType = {
+		name = "DNR_Zalupin"
+		textureFile = "gfx/interface/ideas/idea_DNR_Zalupin.dds"
+	}
+
+	spriteType = {
+		name = "DNR_Strelkov_general"
+		textureFile = "gfx/interface/ideas/idea_DNR_Strelkov_general.dds"
+	}
+	# Portrait_DNR_Strelkov_general.dds
 
 }

@@ -15,10 +15,9 @@ focus_tree = {
 		cost = 10,00
 		x = 34
 		y = 0
-		completion_reward = {
-			add_political_power = 150
-			
-		}
+			completion_reward = {
+					add_political_power = 150
+				}
 
 	}
 	focus = {
@@ -304,8 +303,8 @@ focus_tree = {
 		prerequisite = {
 			focus = voina_s_ukrami
 		}
-		x = 9
-		y = 19
+		x = 12
+		y = 18
 
 	}
 	focus = {
@@ -321,7 +320,7 @@ focus_tree = {
 		prerequisite = {
 			focus = HNR
 		}
-		x = 9
+		x = 12
 		y = 17
 
 	}
@@ -367,15 +366,13 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = russkie_dobrovolsi
-			focus = HNR
-			focus = potrebovat_donesku
-			focus = pohrukat_na_ukrainu
+			focus = voina_s_ukrami
 		}
 		mutually_exclusive = {
 			focus = pokoritsa_russkim
 		}
 		x = 15
-		y = 18
+		y = 17
 
 	}
 	focus = {
@@ -395,7 +392,7 @@ focus_tree = {
 			focus = predati_russkih
 		}
 		x = 21
-		y = 18
+		y = 17
 
 	}
 	focus = {
@@ -403,9 +400,9 @@ focus_tree = {
 		icon = GFX_focus_SWE_the_beast_stirs
 		cost = 10,00
 		prerequisite = {
-			focus = predati_russkih
+			focus = velikistrelkov
 		}
-		x = 15
+		x = 12
 		y = 19
 
 	}
@@ -416,8 +413,8 @@ focus_tree = {
 		prerequisite = {
 			focus = potrebovat_donesku
 		}
-		x = 5
-		y = 17
+		x = 10
+		y = 16
 
 	}
 	focus = {

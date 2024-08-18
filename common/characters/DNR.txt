@@ -1,0 +1,70 @@
+characters = {
+	DNR_babka_godalka ={
+		name = DNR_babka_godalka
+		portraits = {
+			civilian = {
+				large = GFX_baba_Godalka
+				small = "GFX_babka_godalka"
+			}
+		}
+		advisor = {
+			cost = 200
+			allowed = {
+				original_tag = DNR
+			}
+			slot = political_advisor
+			idea_token = babka
+			traits = { zavoz_sigan lubit_dengi sigan}
+		}
+	}
+
+	DNR_Zalupin={
+		name = DNR_Zalupin
+		portraits = {
+			civilian = {
+				small = DNR_Zalupin
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = DNR_Zalupin
+			traits = { silent_workhorse }
+		}
+	}
+
+	DNR_strelkov={
+		name=DNR_strelkov
+		portraits={
+			army={
+				large=GFX_portrait_GER_erwin_rommel
+				small="GFX_idea_erwin_rommel"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = strelkov
+			ledger = army
+			allowed = {
+				original_tag = DNR
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 8.000
+			}
+		}
+		
+		corps_commander={
+			traits={ politically_connected war_hero militias_officer }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+		}
+	}
+
+}

@@ -8,7 +8,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = GFX_idea_anti_ukr
+			picture = anti_ukr
 			modifier = {
 				attack_bonus_against = 0.1
 				mobilization_speed = 0.1
@@ -24,26 +24,8 @@ ideas = {
 			}
 			
 			modifier = {
-				research_slots = -1
-				research_time_factor = -0.1
+				research_speed_factor = -0.2
 			}
-		}
-	}
-	political_advisor = {
-			Babka_godalka ={
-
-				picture = GFX_babka_godalka
-				
-				allowed = {
-					original_tag = DNR
-				}
-				available = {
-					has_political_power = 150
-				}
-				traits = {
-					zavoz_sigan lubit_dengi sigan
-				}
-
 		}
 	}
 }	
