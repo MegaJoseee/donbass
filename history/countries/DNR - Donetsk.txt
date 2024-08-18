@@ -26,6 +26,8 @@ add_ideas = {
 
 recruit_character = DNR_babka_godalka
 recruit_character = DNR_Zalupin
+recruit_character = DNR_strelkov
+recruit_character = DNR_Denis_Pushilin
 
 set_popularities = {
 	democratic = 0
@@ -36,47 +38,6 @@ set_popularities = {
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Denis_Pushilin"
-	desc = "niger"
-	picture = "Portrait_DNR_Denis_pushilin1.dds"
-	ideology = marxism
-	id = 10000
-	traits = { anti_democrat vseh_na_voiny }
-}
-
-create_country_leader = {
-	name = "Strelkov"
-	picture = "Portrait_DNR_Strelkov2.dds"
-	ideology = fascism_ideology
-	id = 10001
-	traits = { mobilizator anti_democrat vseh_na_voiny }
-}
-
-create_field_marshal = {
-	name = "Denis_Pushilin2"
-	picture = "Portrait_DNR_Denis_pushilin1.dds"
-	id = 10004
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-	traits = { infantry_officer }
-}
-
-create_corps_commander = {
-	name = "Strelkov2"
-	picture = "Portrait_DNR_Strelkov_general.dds"
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 4
-	id = 10002
-	traits = { politically_connected war_hero militias_officer }
 }
 
 create_country_leader = {

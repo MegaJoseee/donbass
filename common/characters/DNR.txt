@@ -37,8 +37,17 @@ characters = {
 		name=DNR_strelkov
 		portraits={
 			army={
-				large=GFX_portrait_GER_erwin_rommel
-				small="GFX_idea_erwin_rommel"
+				large=DNR_Strelkov_General1
+				small="DNR_Strelkov_general"
+			}
+			civilian = {
+				large = DNR_Strelkov_Leader
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				mobilizator anti_democrat vseh_na_voiny
 			}
 		}
 		advisor={
@@ -64,6 +73,37 @@ characters = {
 			defense_skill=2
 			planning_skill=1
 			logistics_skill=4
+		}
+	}
+
+	DNR_Denis_Pushilin={
+		name = DNR_Denis_Pushilin
+		portraits = {
+			army = {
+				large = DNR_Denis_Pushilin
+				small = "DNR_Denis_Pushilin1"
+			}
+			civilian = {
+				large = DNR_Denis_Pushilin
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { anti_democrat vseh_na_voiny }
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+			traits = { infantry_officer }
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = Denis_Pushilin
+			traits = { mass_assault_expert }
 		}
 	}
 
