@@ -100,10 +100,34 @@ characters = {
 			traits = { infantry_officer }
 		}
 		advisor = {
-			slot = theorist
+			cost = 150
+			slot = army_chief
 			ledger = army
 			idea_token = Denis_Pushilin
-			traits = { mass_assault_expert }
+			traits = { army_chief_reform_2 }
+		}
+	}
+
+	DNR_Penis_Dushilin={
+		name = DNR_Penis_Dushilin
+		portraits = {
+			army = {
+				large = DNR_Penis_Dushilin1
+				small = "DNR_Penis_Dushilin2"
+			}
+			civilian = {
+				large = DNR_Penis_Dushilin1
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			ledger = army
+			idea_token = Penis_Dushilin
+			traits = { army_chief_reform_2 }
 		}
 	}
 

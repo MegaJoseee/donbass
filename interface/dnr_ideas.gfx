@@ -24,17 +24,35 @@ spriteTypes ={
 		name = "DNR_Strelkov_General1"
 		textureFile = "gfx/leaders/DNR/Portrait_DNR_Strelkov_general.dds"
 	}
+
 	spriteType = {
 		name = "DNR_Strelkov_Leader"
 		textureFile = "gfx/leaders/DNR/Portrait_DNR_Strelkov2.dds"
 	}
+
 	spriteType = {
 		name = "DNR_Denis_Pushilin"
 		textureFile = "gfx/leaders/DNR/Portrait_DNR_Denis_pushilin1.dds"
 	}
+	
 	spriteType = {
 		name = "DNR_Denis_Pushilin1"
 		textureFile = "gfx/interface/ideas/idea_DNR_Pushilinos.dds"
+	}
+
+	spriteType = {
+		name = "DNR_Penis_Dushilin1"
+		textureFile = "gfx/leaders/DNR/Portrait_DNR_Penis_Dushilin.dds"
+	}
+	
+	spriteType = {
+		name = "DNR_Penis_Dushilin2"
+		textureFile = "gfx/interface/ideas/idea_DNR_Penis_Dushilin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_vopros_strelkova"
+		textureFile = "gfx/event_pictures/report_event_strelkov.dds"
 	}
 
 }

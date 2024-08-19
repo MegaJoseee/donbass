@@ -1,8 +1,7 @@
-add_namespace = NewDonesk
+add_namespace = DNRZOV
 
 country_event = {
-	id = NewDonesk
-	title = donetsk
-	desc = donetsk
-	picture = 
+	id = vopros.1
+	title = vopros_strelkova
+	picture = GFX_vopros_strelkova
 }

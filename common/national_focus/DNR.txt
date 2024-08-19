@@ -69,6 +69,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = sohranenia_kursa
+			focus = novaia_strana
 		}
 		x = 19
 		y = 4
@@ -139,8 +140,9 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = sohranenia_kursa
+			focus = bunt_strelkova
 		}
-		x = 42
+		x = 43
 		y = 4
 
 	}
@@ -301,10 +303,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = voina_s_ukrami
+			focus = svo_na_lnr
 		}
-		x = 12
-		y = 18
+		x = 11
+		y = 17
 
 	}
 	focus = {
@@ -312,16 +314,11 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = pohrukat_na_ukrainu
+			focus = velikistrelkov
+			focus = predati_russkih
 		}
-		prerequisite = {
-			focus = potrebovat_donesku
-		}
-		prerequisite = {
-			focus = HNR
-		}
-		x = 12
-		y = 17
+		x = 13
+		y = 18
 
 	}
 	focus = {
@@ -366,7 +363,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = russkie_dobrovolsi
-			focus = voina_s_ukrami
+		}
+		prerequisite = {
+			focus = investisii_ot_russkih
 		}
 		mutually_exclusive = {
 			focus = pokoritsa_russkim
@@ -400,9 +399,9 @@ focus_tree = {
 		icon = GFX_focus_SWE_the_beast_stirs
 		cost = 10,00
 		prerequisite = {
-			focus = velikistrelkov
+			focus = voina_s_ukrami
 		}
-		x = 12
+		x = 13
 		y = 19
 
 	}
@@ -413,7 +412,13 @@ focus_tree = {
 		prerequisite = {
 			focus = potrebovat_donesku
 		}
-		x = 10
+		prerequisite = {
+			focus = pohrukat_na_ukrainu
+		}
+		prerequisite = {
+			focus = HNR
+		}
+		x = 9
 		y = 16
 
 	}

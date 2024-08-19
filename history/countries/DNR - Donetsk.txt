@@ -28,6 +28,7 @@ recruit_character = DNR_babka_godalka
 recruit_character = DNR_Zalupin
 recruit_character = DNR_strelkov
 recruit_character = DNR_Denis_Pushilin
+recruit_character = DNR_Penis_Dushilin
 
 set_popularities = {
 	democratic = 0
@@ -38,12 +39,4 @@ set_popularities = {
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Penis_Dushilin"
-	picture = "Portrait_DNR_Penis_Dushilin.dds"
-	ideology = oligarchism
-	id = 10003
-	traits ={ anti_democrat }
 }

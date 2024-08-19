@@ -19,63 +19,63 @@ division_template = {
 }
 units = {
 	division = {
-		location = 202
+		location = 6420
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
 	division = {
-		location = 202
+		location = 6774
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
 	division = {
-		location = 227
+		location = 3466
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
 	division = {
-		location = 227
+		location = 3479
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 1
 	}
 	division = {
-		location = 227
+		location = 6519
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
     division = {
-		location = 227
+		location = 9476
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
     division = {
-		location = 228
+		location = 418
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
     division = {
-		location = 228
+		location = 3479
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		start_manpower_factor = 0.4
 	}
     division = {
-		location = 228
+		location = 3466
 		division_template = "ZSU"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
