@@ -15,9 +15,9 @@ focus_tree = {
 		cost = 10,00
 		x = 34
 		y = 0
-			completion_reward = {
-					add_political_power = 150
-				}
+		completion_reward = {
+			add_political_power = 150
+		}
 
 	}
 	focus = {
@@ -28,6 +28,17 @@ focus_tree = {
 		prerequisite = {
 			focus = friend_dnr_lnr
 		}
+
+		completion_reward = {
+			random_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
 		x = 32
 		y = 1
 
@@ -40,6 +51,13 @@ focus_tree = {
 		prerequisite = {
 			focus = friend_dnr_lnr
 		}
+		completion_reward = {
+			country_event = donetsk.1
+		}
+		completion_reward = {
+
+		}
+
 		x = 36
 		y = 1
 
@@ -55,6 +73,7 @@ focus_tree = {
 		prerequisite = {
 			focus = otkopat_shahti
 		}
+
 		x = 34
 		y = 2
 
@@ -70,6 +89,14 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = sohranenia_kursa
 			focus = novaia_strana
+		}
+
+		available = {
+			NOT = { has_country_flag = focus_bunt_strelkova_locked }
+		}
+
+		completion_reward = {
+			
 		}
 		x = 19
 		y = 4

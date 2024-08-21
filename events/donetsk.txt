@@ -1,7 +1,30 @@
-add_namespace = DNRZOV
+add_namespace = donetsk
 
 country_event = {
-	id = vopros.1
-	title = vopros_strelkova
+	id = donetsk.1
+	title = vopros_strelkova.1.a
+	desc = vopros_strelkova.1.b
 	picture = GFX_vopros_strelkova
+
+	is_triggered_only = yes
+	trigger = {
+		has_completed_focus = kurs
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = pohui
+	}
+	option = {
+		name = nepohui
+		hidden_effect = {
+			DNR_strelkov = {
+				retire = yes
+			}
+			set_country_flag = focus_bunt_strelkova_locked			
+		}
+	}
 }
