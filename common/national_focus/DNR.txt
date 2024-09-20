@@ -15,9 +15,63 @@ focus_tree = {
 		cost = 10,00
 		x = 34
 		y = 0
-		completion_reward = {
-			add_political_power = 150
+			completion_reward = {
+					add_political_power = 150
+				}
+
+	}
+	focus = {
+		id = koronovaniepushilina
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = rodnik
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = pendos
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = bratislovane
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 34
+		y = 9
+
+	}
+	focus = {
+		id = Afrika
+		icon = GFX_focus_generic_africa_liberation
+		cost = 10,00
+		prerequisite = {
+			focus = bratislovane
 		}
+		x = 29
+		y = 10
+
+	}
+	focus = {
+		id = vostonovit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rodnik
+		}
+		x = 31
+		y = 7
 
 	}
 	focus = {
@@ -28,19 +82,17 @@ focus_tree = {
 		prerequisite = {
 			focus = friend_dnr_lnr
 		}
-
-		completion_reward = {
-			random_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-
 		x = 32
 		y = 1
+			completion_reward = {
+					random_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -51,15 +103,14 @@ focus_tree = {
 		prerequisite = {
 			focus = friend_dnr_lnr
 		}
-		completion_reward = {
-			country_event = donetsk.1
-		}
-		completion_reward = {
-
-		}
-
 		x = 36
 		y = 1
+			completion_reward = {
+					country_event = donetsk.1
+				}
+			completion_reward = {
+
+}
 
 	}
 	focus = {
@@ -73,7 +124,6 @@ focus_tree = {
 		prerequisite = {
 			focus = otkopat_shahti
 		}
-
 		x = 34
 		y = 2
 
@@ -90,16 +140,16 @@ focus_tree = {
 			focus = sohranenia_kursa
 			focus = novaia_strana
 		}
-
-		available = {
-			NOT = { has_country_flag = focus_bunt_strelkova_locked }
-		}
-
-		completion_reward = {
-			
-		}
 		x = 19
 		y = 4
+			available = {
+					NOT = {
+							has_country_flag = focus_bunt_strelkova_locked
+						}
+				}
+			completion_reward = {
+
+}
 
 	}
 	focus = {
@@ -130,6 +180,46 @@ focus_tree = {
 
 	}
 	focus = {
+		id = kazni
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = poklonenie_pushilinu
+		}
+		x = 34
+		y = 6
+
+	}
+	focus = {
+		id = oboronaotkoklov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = bratislovane
+		}
+		x = 34
+		y = 8
+
+	}
+	focus = {
+		id = tvarikokli
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = kazni
+			focus = vostonovit
+		}
+		prerequisite = {
+			focus = pendos
+		}
+		prerequisite = {
+			focus = oboronaotkoklov
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
 		id = pofgotovka_dlia_nahruka
 		icon = GFX_focus_SWE_defense_act
 		cost = 10,00
@@ -139,7 +229,7 @@ focus_tree = {
 		prerequisite = {
 			focus = massova_mobilizasia
 		}
-		x = 14
+		x = 19
 		y = 12
 
 	}
@@ -153,7 +243,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Samiposebe
 		}
-		x = 18
+		x = 23
 		y = 13
 
 	}
@@ -166,8 +256,8 @@ focus_tree = {
 			focus = kurs
 		}
 		mutually_exclusive = {
-			focus = sohranenia_kursa
 			focus = bunt_strelkova
+			focus = sohranenia_kursa
 		}
 		x = 43
 		y = 4
@@ -235,24 +325,7 @@ focus_tree = {
 		prerequisite = {
 			focus = strelkovshina
 		}
-		mutually_exclusive = {
-			focus = save_paece
-		}
-		x = 14
-		y = 10
-
-	}
-	focus = {
-		id = save_paece
-		icon = GFX_pleace
-		cost = 10,00
-		prerequisite = {
-			focus = strelkovshina
-		}
-		mutually_exclusive = {
-			focus = prodolshit_orbu
-		}
-		x = 24
+		x = 19
 		y = 10
 
 	}
@@ -263,7 +336,7 @@ focus_tree = {
 		prerequisite = {
 			focus = prodolshit_orbu
 		}
-		x = 16
+		x = 21
 		y = 11
 
 	}
@@ -274,7 +347,7 @@ focus_tree = {
 		prerequisite = {
 			focus = prodolshit_orbu
 		}
-		x = 12
+		x = 17
 		y = 11
 
 	}
@@ -288,7 +361,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = pomosh_ot_russia
 		}
-		x = 9
+		x = 14
 		y = 13
 
 	}
@@ -299,7 +372,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Samiposebe
 		}
-		x = 9
+		x = 14
 		y = 15
 
 	}
@@ -310,7 +383,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Samiposebe
 		}
-		x = 6
+		x = 11
 		y = 15
 
 	}
@@ -321,7 +394,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Samiposebe
 		}
-		x = 12
+		x = 17
 		y = 15
 
 	}
@@ -332,7 +405,7 @@ focus_tree = {
 		prerequisite = {
 			focus = svo_na_lnr
 		}
-		x = 11
+		x = 16
 		y = 17
 
 	}
@@ -344,7 +417,7 @@ focus_tree = {
 			focus = velikistrelkov
 			focus = predati_russkih
 		}
-		x = 13
+		x = 18
 		y = 18
 
 	}
@@ -355,7 +428,7 @@ focus_tree = {
 		prerequisite = {
 			focus = pomosh_ot_russia
 		}
-		x = 18
+		x = 23
 		y = 15
 
 	}
@@ -366,7 +439,7 @@ focus_tree = {
 		prerequisite = {
 			focus = pomosh_ot_russia
 		}
-		x = 15
+		x = 20
 		y = 15
 
 	}
@@ -377,7 +450,7 @@ focus_tree = {
 		prerequisite = {
 			focus = pomosh_ot_russia
 		}
-		x = 21
+		x = 26
 		y = 15
 
 	}
@@ -397,7 +470,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = pokoritsa_russkim
 		}
-		x = 15
+		x = 20
 		y = 17
 
 	}
@@ -417,7 +490,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = predati_russkih
 		}
-		x = 21
+		x = 26
 		y = 17
 
 	}
@@ -428,7 +501,7 @@ focus_tree = {
 		prerequisite = {
 			focus = voina_s_ukrami
 		}
-		x = 13
+		x = 18
 		y = 19
 
 	}
@@ -445,19 +518,8 @@ focus_tree = {
 		prerequisite = {
 			focus = HNR
 		}
-		x = 9
+		x = 14
 		y = 16
-
-	}
-	focus = {
-		id = poplakat
-		icon = GFX_focus_BRA_pedro_de_alcantara
-		cost = 10,00
-		prerequisite = {
-			focus = save_paece
-		}
-		x = 24
-		y = 11
 
 	}
 }
