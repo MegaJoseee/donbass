@@ -84,16 +84,10 @@ focus_tree = {
 		}
 		x = 32
 		y = 1
-			completion_reward = {
-					random_state = {
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
 
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = otkopat_shahti
@@ -105,13 +99,16 @@ focus_tree = {
 		}
 		x = 36
 		y = 1
-			completion_reward = {
-					country_event = donetsk.1
-				}
-			completion_reward = {
-
-}
-
+		completion_reward = {
+			hidden_effect = {
+				country_event = donetsk.1
+			}
+			add_building_construction = {
+				province = 970
+				type = industrial_complex
+				level = 2
+			}
+		}
 	}
 	focus = {
 		id = kurs
